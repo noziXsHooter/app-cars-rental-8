@@ -1,10 +1,28 @@
 <?php
 
+
+
+
+
+
+
+
+
+
+
+
+###  FINALIZAR CARRRO
+
+
+
+
+
+
+
+
 namespace App\Http\Controllers;
 
 use App\Models\Cliente;
-use App\Http\Requests\StoreClienteRequest;
-use App\Http\Requests\UpdateClienteRequest;
 use Illuminate\Http\Request;
 use App\Repositories\ClienteRepository;
 

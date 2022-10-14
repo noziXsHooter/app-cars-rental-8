@@ -3,12 +3,15 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-
+use Illuminate\Support\Facades\Http;
 
 class AuthController extends Controller
 {
-    public function login(Request $request) {
 
+
+
+    public function login(Request $request) {
+ 
         $credenciais = $request->all(['email', 'password']);
         $token = auth('api')->attempt($credenciais); // IMPORTANTE: FAZ A AUTENTICAÇÂO E FORNECE O TOKEN
         
@@ -17,7 +20,9 @@ class AuthController extends Controller
             return response()->json(['token' => $token]);
         } else {
             return response()->json(['erro' => 'Usuário ou senha incorreto'], 403);
-        }
+        } 
+
+        return response()->json($credenciais);
        // return 'login';
     }
     public function logout() {
