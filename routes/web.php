@@ -28,12 +28,6 @@ Route::get('/login', function () {
 //Route::post('login', [AuthController::class, 'login'])->name('posts.login');
 
 
-Route::get('documentation', function () {
-    return view('documentation');
-});
-
-
-
-Route::fallback(function () {
-    return view('welcome');
+Route::get('docs', function () {
+    return view('docs');
 });

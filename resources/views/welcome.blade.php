@@ -413,7 +413,7 @@
         </div>
         @endif
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-            <h1 class="flex justify-center mx-auto">LARAVEL - API CARS RENTAL</h1>
+            <h1 class="flex  text-gray-700 justify-center mx-auto">LARAVEL - API CARS RENTAL</h1>
             <div class="flex justify-center mx-auto pt-8">
 
                 <!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->

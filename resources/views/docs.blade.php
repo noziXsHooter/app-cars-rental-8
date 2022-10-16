@@ -413,7 +413,7 @@
         </div>
         @endif
         <div class="max-w-6xl mx-auto sm:px-6 lg:px-8">
-            <h1 class="flex justify-center mx-auto">API CARS RENTAL</h1>
+            <h1 class="flex  text-gray-700 justify-center mx-auto">API CARS RENTAL</h1>
             <div class="flex justify-center mx-auto pt-8">
                 <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="150px" height="150px" x="0px" y="0px" viewBox="0 0 410.006 410.006" style="enable-background:new 0 0 410.006 410.006;" xml:space="preserve">
                     <g>
