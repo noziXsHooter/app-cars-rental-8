@@ -65,7 +65,7 @@ id   -   cliente_id   -   carro_id   -   data_inicio_periodo   -   data_final_pr
 ## ATRIBUTOS E FILTRO
 
 
-'https://nozixapi.000webhostapp.com/api/modelo?' ---> Inicie chamando o modelo.
+'https://carsrentalapi.tech/api/modelo?' ---> Inicie chamando o modelo.
 
 'atributos=nome,numero_portas,marca_id'  ---> Concatene os atributos que deseja mostrando no resultado conforme as colunas das tabelas.
 
@@ -78,7 +78,7 @@ id   -   cliente_id   -   carro_id   -   data_inicio_periodo   -   data_final_pr
 
 # Exemplo
 
-'https://nozixapi.000webhostapp.com/api/modelo?atributos=nome,numero_portas,marca_id&atributos_marca=nome&filtro=nome:like:BMW%;abs:=:1'
+'https://https://carsrentalapi.tech/api/modelo?atributos=nome,numero_portas,marca_id&atributos_marca=nome&filtro=nome:like:BMW%;abs:=:1'
 
 
 Esta query retornará o seguinte Array de Objetos:
