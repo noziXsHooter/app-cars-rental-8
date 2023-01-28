@@ -65,7 +65,7 @@ id   -   cliente_id   -   carro_id   -   data_inicio_periodo   -   data_final_pr
 ## ATRIBUTOS E FILTRO
 
 
-'https://carsrentalapi.tech/api/modelo?' ---> Inicie chamando o modelo.
+'https://carsrentalapi.tech/api/v1/modelos?' ---> Inicie chamando o modelo.
 
 'atributos=nome,numero_portas,marca_id'  ---> Concatene os atributos que deseja mostrando no resultado conforme as colunas das tabelas.
 
@@ -78,7 +78,7 @@ id   -   cliente_id   -   carro_id   -   data_inicio_periodo   -   data_final_pr
 
 # Exemplo
 
-'https://https://carsrentalapi.tech/api/modelo?atributos=nome,numero_portas,marca_id&atributos_marca=nome&filtro=nome:like:BMW%;abs:=:1'
+'https://carsrentalapi.tech/api/v1/modelos?atributos=nome,numero_portas,marca_id&atributos_marca=nome&filtro=nome:like:BMW%;abs:=:1'
 
 
 Esta query retornará o seguinte Array de Objetos:
